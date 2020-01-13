@@ -1,0 +1,91 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  color: #fff;
+  background-color: rgba(0, 155, 0, 0.7);
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10px;
+}
+
+a {
+  float: left;
+  wigth: 120px;
+  height: auto;
+  padding: 20px 40px;
+}
+
+.header-list {
+  margin-top: 18px;
+  margin-left:40px;
+}
+
+.header-list li {
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main {
+margin: 150px 80px 120px 80px;
+flex: 1;
+}
+
+.copy-container h2 {
+  font-weight: normal;
+  font-size: 36px;
+  padding-top: 25px;
+}
+
+.main-logo {
+  width: 240px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.copy-container p {
+  margin-top: 5px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.copy-container li {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #6b8e23;
+  height: 80px;
+  padding: 40px;
+}
+
+.footer-logo {
+  font-size: 32px;
+}
+
+.footer p {
+  font-weight: bold;
+}
